@@ -22,7 +22,7 @@ function whileLoop(n){
 }
 
 
-var array = [];
+
 function doWhileLoop(array){
   
     function maybeTrue() {
@@ -30,7 +30,7 @@ function doWhileLoop(array){
     }
   
     do {
-      array.pop();
+      var array = array.pop();
      } while (array.length > 0 || maybeTrue() === false);
   
 }
