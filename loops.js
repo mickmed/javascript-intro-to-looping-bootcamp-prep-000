@@ -21,6 +21,8 @@ function whileLoop(n){
   return 'done';
 }
 
+
+var array = [];
 function doWhileLoop(array){
   
     function maybeTrue() {
